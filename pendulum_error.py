@@ -91,7 +91,7 @@ def main(args):
         errors[i] = (vel_error + ang_error)
 
     for i in range(args.steps):
-        print(f"{i}\t{np.sum(errors[0:i])}\t{errors[i]}")
+        print(f"{i} \t {np.sum(errors[0:i])} \t {errors[i]}")
 
 
 if __name__ == "__main__":
